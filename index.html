@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto The Flash</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Oxanium:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="./src/CSS/reset.css">
+        <link rel="stylesheet" href="./src/CSS/estilos.css">
+        <link rel="stylesheet" href="./src/CSS/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho"><img class="logo" src="src/imagens/logo.png" alt="Logo The Flash">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="flash" data-name="Flash" data-description="Flash, conhecido como Barry Allen, ele é um perito forense que adquiriu super velocidade após ser atingido por um raio. Ele pode correr em velocidades incríveis, tem reflexos rápidos e habilidades de cura acelerada.">
+                    <img src="src/imagens/card-flash.jpg" alt="Personagem Flash">
+                </li>
+
+                <li class="personagem" id="flash-reverso" data-name="Flash Reverso"
+                data-description="O Flash Reverso, também chamado de Eobard Thawne, é um vilão com poderes de velocidade igual aos do Flash. Ele usa suas habilidades para o mal, sendo um dos principais inimigos do Flash.">
+                    <img src="src/imagens/card-reverso.jpg"
+                        alt="Personagem Flash Reverso">
+                </li>
+
+                <li class="personagem" id="kid-flash" data-name="Kid Flash" data-description="O Kid Flash, geralmente Wally West, é uma versão mais jovem do Flash. Ele também possui super velocidade e é conhecido por seu senso de humor brincalhão."><img src="src/imagens/card-kidflash.jpg"
+                        alt="Personagem Kid Flash">
+                </li>
+
+                <li class="personagem" id="jay"
+                data-name="Jay Garrick" data-description="Jay Garrick é o primeiro Flash, um herói mais antigo e sábio. Ele possui velocidade sobre-humana e usa um capacete que amplifica seus sentidos e o conecta a outras formas de energia cósmica"><img src="src/imagens/card-jay.jpg"
+                        alt="Personagem Jay">
+                </li>
+
+                <li class="personagem" id="zoom" data-name="Zoom" data-description="
+                O Zoom, também conhecido como Hunter Zolomon, é um vilão velocista que se tornou um dos maiores adversários do Flash. Ele possui uma abordagem distorcida em relação à velocidade, sendo capaz de distorcer o tempo ao seu redor para se mover em uma velocidade ainda mais acelerada em comparação com outros velocistas. Zoom é conhecido por sua crueldade e desejo de desafiar e derrotar os velocistas."><img src="src/imagens/card-zoom.jpg" alt="Personagem Zoom">
+                </li>
+
+                <li class="personagem" id="savitar" data-name="Savitar" data-description="Savitar, também conhecido como o Deus da Velocidade, é uma versão futura de Barry Allen, o Flash. Após passar por uma série de eventos traumáticos, Barry Allen assume a identidade de Savitar. Como Savitar, Barry acredita ser o primeiro velocista e se autodenomina o Deus da Velocidade. Ele busca subjugar outros velocistas e controlar a Força de Aceleração para seus próprios propósitos. Savitar é retratado como um vilão implacável e extremamente poderoso, causando um grande impacto nas histórias do Flash. Sua conexão com Barry Allen como o Flash é fundamental para o personagem.">
+                    <img src="src/imagens/card-savitar.jpg"
+                        alt="Personagem Savitar">
+                </li>
+
+                <li class="personagem" id="goodspeed" data-name="GoodSpeed" data-description="Godspeed, também conhecido como August Heart, é um vilão velocista que pode correr em alta velocidade e drenar a velocidade de outros velocistas ao tocá-los.">
+                    <img src="src/imagens/card-goodspeed.jpg" alt="Personagem GoodSpeed">
+                </li>
+
+                <li class="personagem" id="rival"
+                data-name="Rival" data-description="O Rival, cujo nome real é Edward Clariss, é um vilão velocista que serve como um dos primeiros inimigos do Flash. Ele também ganhou poderes de velocidade através da Fórmula da Velocidade, mas optou por usá-los para o mal. O Rival é um dos principais antagonistas de Jay Garrick, o primeiro Flash."><img src="src/imagens/card-rival.jpg" alt="Personagem Rival">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/imagens/card-flash.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Flash</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Conhecido como Barry Allen, ele é um perito forense que adquiriu super velocidade após ser atingido por um raio. Ele pode correr em velocidades incríveis, tem reflexos rápidos e habilidades de cura acelerada.</p>   
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
